@@ -8,9 +8,6 @@
         </div>
         <div class="headers-right">
             <div class="headers-right-left">
-                <el-tooltip class="item" effect="dark" content="源码" placement="bottom">
-                    <github2 class="headers-right-left-githubIcon" @click="goGithub" />
-                </el-tooltip>
                 <el-tooltip class="item" effect="dark" :content="isFullscreen ? '取消全屏' : '全屏'" placement="bottom">
                     <!-- <i :class="isFullscreen ? 'el-icon-full-screen head-screen-news' : 'el-icon-rank head-screen'" @click="buttoncli"></i> -->
                     <reduction v-if="isFullscreen" class="headers-right-left-screenIcon" @click="buttoncli" />

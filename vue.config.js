@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: "/admin-vue/",
+    publicPath: "/",
     // 关闭线上源码
     productionSourceMap: false,
     chainWebpack: (config) => {

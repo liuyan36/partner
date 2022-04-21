@@ -5,74 +5,17 @@
             <div class="index-head-title">
                 工作台
             </div>
-            <el-row>
-                <el-col  :xs="24" :sm="24" :md="14" :lg="12" :xl="12">
-                    <div class="index-head-centent-left">
-                        <el-avatar style="margin-right: 10px;" :size="56" :src="circleUrl"></el-avatar>
-                        <div class="index-head-centent-left-text">
-                            <p>早上好,admin,祝你新的一天工作愉快</p>
-                            <p>今天小雨转阴天,21~27°,天凉,注意加衣</p>
-                        </div>
-                    </div>
-                </el-col>
-                <el-col  :xs="24" :sm="24" :md="10" :lg="12" :xl="12">
-                    <div class="index-head-centent-right">
-                        <div class="index-head-centent-right-list">
-                            <div class="index-head-centent-right-list-icon">
-                                <daiban style="color: #FD7F07; background: #FBEEE1;" class="index-head-centent-right-list-icon-is"  /> 代办事项
-                            </div>
-                            <div class="index-head-centent-right-list-text">
-                                3 &nbsp;&nbsp;/&nbsp;&nbsp; 26
-                            </div>
-                        </div>
-                        <div class="index-head-centent-right-list">
-                            <div class="index-head-centent-right-list-icon">
-                                <github style="color: #2294FC; background: #DDEDFD;" class="index-head-centent-right-list-icon-is"  /> 开源项目
-                            </div>
-                            <div class="index-head-centent-right-list-text">
-                                7
-                            </div>
-                        </div>
-                        <div class="index-head-centent-right-list">
-                            <div class="index-head-centent-right-list-icon">
-                                <daiban class="index-head-centent-right-list-icon-is"  /> 代办事项
-                            </div>
-                            <div class="index-head-centent-right-list-text">
-                                3 &nbsp;&nbsp;/&nbsp;&nbsp; 26
-                            </div>
-                        </div>
-                    </div>
-                </el-col>
-            </el-row>
         </div>
         <!-- 图标 -->
         <div class="index-centent">
             <el-row :gutter="20">
                 <el-col :xs="24" :sm="24" :md="24" :lg="16" :xl="16">
-                    <!-- 项目 -->
-                    <div class="grid-content">
-                        <div class="index-centent-title">
-                            <div class="index-centent-title-left">
-                                <sort class="index-centent-title-left-icon" />
-                                我的项目
-                            </div>
-                            <div class="index-centent-title-right">
-                                全部项目
-                            </div>
-                        </div>
-                        <div class="index-centent-box">
-                            <Project />
-                        </div>
-                    </div>
                     <!-- 动态 -->
                     <div class="grid-content">
                         <div class="index-centent-title">
                             <div class="index-centent-title-left">
                                 <dynamic class="index-centent-title-left-icontwo" />
                                 动态
-                            </div>
-                            <div class="index-centent-title-right">
-                                全部动态
                             </div>
                         </div>
                         <div class="index-centent-box">
